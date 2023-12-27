@@ -7,7 +7,8 @@ const Index = () => {
     <center><div id="index">
       <h2>Welcome to My Portfolio</h2>
       <img src={kenSuit} id="port-pic" alt="Portfolio of Ken Crawford"></img>
-      {/* Add your content here */}
+      <center><p>Welcome! This Website Is Currently Under Construction</p></center>
+      {/* Add your content above */}
     </div></center>
   );
 };
