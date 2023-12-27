@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/professional-portfolio/static/css/main.ce77ce25.css",
-    "main.js": "/professional-portfolio/static/js/main.b1dbdd20.js",
+    "main.js": "/professional-portfolio/static/js/main.e83b364b.js",
     "static/js/787.f4c84613.chunk.js": "/professional-portfolio/static/js/787.f4c84613.chunk.js",
     "static/media/Ken_Suit.jpg": "/professional-portfolio/static/media/Ken_Suit.8184d90aa2ba36d405fb.jpg",
     "index.html": "/professional-portfolio/index.html",
     "main.ce77ce25.css.map": "/professional-portfolio/static/css/main.ce77ce25.css.map",
-    "main.b1dbdd20.js.map": "/professional-portfolio/static/js/main.b1dbdd20.js.map",
+    "main.e83b364b.js.map": "/professional-portfolio/static/js/main.e83b364b.js.map",
     "787.f4c84613.chunk.js.map": "/professional-portfolio/static/js/787.f4c84613.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce77ce25.css",
-    "static/js/main.b1dbdd20.js"
+    "static/js/main.e83b364b.js"
   ]
 }
