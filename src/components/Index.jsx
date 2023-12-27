@@ -7,7 +7,7 @@ const Index = () => {
     <center><div id="index">
       <h2>Welcome to My Portfolio</h2>
       <img src={kenSuit} id="port-pic" alt="Portfolio of Ken Crawford"></img>
-      <center><p>Welcome! This Website Is Currently Under Construction</p></center>
+      <p>Welcome! This Website Is Currently Under Construction</p>
       {/* Add your content above */}
     </div></center>
   );
