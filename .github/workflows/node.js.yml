@@ -1,44 +1,38 @@
-name: CI/CD
+name: Deploy to GitHub Pages (Root Domain)
 
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x] # Adjust if needed
-
     steps:
-      # ✅ Step 1: Checkout repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # ✅ Step 2: Set up Node.js
-      - name: Set up Node.js ${{ matrix.node-version }}
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 18.x
 
-      # ✅ Step 3: Install Dependencies
       - name: Install Dependencies
         run: npm install
 
-      # ✅ Step 4: Build the React App
-      - name: Build
+      - name: Build Project
         run: npm run build
 
-      # ✅ Step 5: Deploy to GitHub Pages using PAT
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://${{ secrets.PORTFOLIO_ACTIONS_TOKEN }}@github.com/${{ github.repository }}.git
-          npm run deploy
+          git clone --depth=1 --branch=gh-pages https://x-access-token:${{ secrets.PORTFOLIO_ACTIONS_TOKEN }}@github.com/GitForceJedi/gitforcejedi.github.io.git deploy-repo
+          rm -rf deploy-repo/*
+          cp -r build/* deploy-repo/
+          cd deploy-repo
+          git add .
+          git commit -m "🚀 Overwrite existing site with new deployment"
+          git push origin gh-pages
         env:
           PORTFOLIO_ACTIONS_TOKEN: ${{ secrets.PORTFOLIO_ACTIONS_TOKEN }}

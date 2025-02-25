@@ -44,7 +44,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://GitForceJedi.github.io/professional-portfolio",
+  "homepage": "https://GitForceJedi.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
