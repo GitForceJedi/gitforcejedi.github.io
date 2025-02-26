@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/#/">
+    <meta http-equiv="refresh" content="0; url=/#/" />
     <title>Redirecting...</title>
 </head>
 <body>
     <script>
-        window.location.replace("/#/" + window.location.pathname.substring(1));
+        var path = window.location.pathname + window.location.search + window.location.hash;
+        if (path.startsWith("/")) {
+            path = path.substring(1);  // Remove leading "/"
+        }
+        window.location.replace("/#/" + path);
     </script>
 </body>
 </html>
