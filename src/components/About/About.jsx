@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Aboutbody from "./AboutBody";
 import aboutImage from "../../Assets/about.png";
 import TypeAbout from "./TypeAbout";
-{/* import TypeQuote from "./TypeQuote"; */}
-
 
 function About() {
   return (
