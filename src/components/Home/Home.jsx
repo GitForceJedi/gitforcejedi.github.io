@@ -88,21 +88,13 @@ function Home() {
                 <br />
                 <br />
                 I am passionate about building &nbsp;
-                <b className="maincolor">Websites, Software Solutions,. </b> and
+                <b className="maincolor">Websites, Software Solutions, </b> and
                 exploring{" "}
                 <b className="maincolor">
                   new languages, frameworks, and technologies.
                 </b>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing products
-                with <b className="maincolor">Node.js</b> and
-                <b className="maincolor">
-                  {" "}
-                  Modern Javascript Libraries and Frameworks
-                </b>
-                &nbsp; like
-                <b className="maincolor"> React.js and Next.js</b>
               </p>
             </Col>
             <Col md={4} className="myAvtar">

@@ -62,7 +62,7 @@ function AboutBody() {
               <GoDotFill /> Developing Coding Projects
             </li>
             <li className="about-activity">
-              <GoDotFill /> Self Learning New Technologies and Frameworks
+              <GoDotFill /> Learning New Technologies and Frameworks
             </li>
           </ul>
         </blockquote>
