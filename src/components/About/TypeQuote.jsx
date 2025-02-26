@@ -1,15 +1,22 @@
 import { useState, useEffect, useMemo } from "react";
 
-function TypeTools() {
+function TypeQuote() {
   const strings = useMemo(() => [
-    "Mac",
-    "Windows",
-    "Visual Studio Code",
-    "Visual Studio",
-    "PyCharm",
-    "IntelliJ IDEA",
-    "Github",
-    "Postman"
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "React.js",
+    "HTML",
+    "CSS",
+    "PHP",
+    "SQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Azure",
+    "C#",
+    "Java",
+    "Docker"
   ], []);
 
   const [text, setText] = useState(""); //  Holds current displayed text
@@ -63,7 +70,7 @@ function TypeTools() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, index, delay, strings, isPaused]);
 
-  return <h2 className="main-tools">{text}|</h2>;
+  return <p className="main-name"><i>{text}|</i></p>;
 }
 
-export default TypeTools;
+export default TypeQuote;

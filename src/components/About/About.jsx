@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Aboutbody from "./AboutBody";
 import aboutImage from "../../Assets/about.png";
 import TypeAbout from "./TypeAbout";
+import TypeQuote from "./TypeQuote";
+
 
 function About() {
   return (
@@ -23,6 +25,9 @@ function About() {
             <TypeAbout />
             <img src={aboutImage} alt="about" className="img-fluid about-icons" />
             <Aboutbody />
+            {/*<br />
+            <br />
+            {/*<TypeQuote />*/}
           </Col>
         </Row>
       </Container>

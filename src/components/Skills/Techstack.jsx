@@ -19,8 +19,6 @@ import { TiHtml5, TiCss3 } from "react-icons/ti";
 import { VscAzure } from "react-icons/vsc";
 import { FaDocker } from "react-icons/fa";
 
-
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

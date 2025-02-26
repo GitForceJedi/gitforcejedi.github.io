@@ -70,7 +70,7 @@ function TypeSkills() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, index, delay, strings, isPaused]);
 
-  return <h2>{text}|</h2>;
+  return <h2 className="main-skills">{text}|</h2>;
 }
 
 export default TypeSkills;

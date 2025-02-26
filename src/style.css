@@ -98,7 +98,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: orangered !important;
+    background-color: white !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -151,28 +151,29 @@ html {
   }
   
   .navbar-nav .nav-link {
-    color: orangered !important;
+    color: White !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
-  
+   
   .nav-link {
     padding: 0.8rem 1rem !important;
+    color: white !important;
   }
   
   @media (max-width: 767px) {
-    .nav-link {
+      .navbar-nav .nav-link {
       padding: 0.7rem 1rem !important;
-      color: orangered !important;
+      color: white !important;
     }
   }
 
   @media (max-width: 767px) {
     .navbar {
-        background-color: rgba(50, 48, 51, 0.959) !important; /* Dark gray with full opacity */
+        background-color: rgba(255, 69, 0, 0.8) !important; /* Dark gray with full opacity */
     }
 }
-  
+  np
   .navbar-nav .nav-item {
     position: relative;
     margin-left: 20px;
@@ -288,6 +289,16 @@ html {
   .main-name {
     color: orangered;
     font-family: sans-serif;
+  }
+  .main-skills {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.4em;
+  }
+  .main-tools {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.4em;
   }
   
   .Typewriter__wrapper {
@@ -407,22 +418,6 @@ html {
   }
   
   /* Footer */
-
-.footer {
-    background-color: rgb(29, 28, 32);
-    bottom: 0 !important;
-    padding-top: 10px !important;
-    padding-bottom: 8px !important;
-}
-
-.footer-copywright {
-    text-align: left !important;
-}
-
-.footer-body {
-    z-index: 1;
-    text-align: right !important; /*  Aligns icons to the right */
-}
 @media (max-width: 768px) {
     iframe {
       width: 100%;
@@ -451,13 +446,40 @@ html {
     min-height: 100vh;
     border: none;
   }
+  .footer {
+    background-color: rgb(29, 28, 32);
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+}
+
+.footer-copywright {
+    text-align: left !important;
+}
+
+.footer-body {
+    z-index: 1;
+    text-align: right !important; /*  Aligns icons to the right */
+}
 @media (max-width: 767px) {
+    .footer {
+        display: flex;
+        justify-content: center; /* ✅ Keeps copyright centered */
+        align-items: center; /* ✅ Ensures vertical alignment */
+        flex-wrap: nowrap;  /* ✅ Prevents wrapping */
+    }
+
     .footer-copywright {
-        text-align: center !important;
+        text-align: center; /* ✅ Stays centered */
+        flex: 1;
     }
 
     .footer-body {
-        text-align: center !important;
+        position: absolute;
+        right: 10px; /* ✅ Keeps social icons aligned right */
+        display: flex;
+        align-items: center;
+        gap: 12px; /* ✅ Adjust space between icons */
     }
 }
 
