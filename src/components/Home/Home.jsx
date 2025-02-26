@@ -84,17 +84,16 @@ function Home() {
                 I am a Full Stack Developer specializing in <b className="maincolor">Frontend development, Backend development, API development,</b> and the full <b className="maincolor">Software Development Life Cycle</b>.  
                 <br />
                 <br />Some of the languages and technologies I use the most include
-                  <b className="maincolor"> Javascript, TypeScript, Python, Node.js, React.js, Express, SQL, PostgreSQL, and more. </b>
+                  <b className="maincolor"> Javascript, TypeScript, Python, Node.js, React.js, Express, SQL, PostgreSQL, and more</b>.
                 <br />
                 <br />
                 I am passionate about building &nbsp;
                 <b className="maincolor">Websites, Software Solutions, </b> and
                 exploring{" "}
                 <b className="maincolor">
-                  new languages, frameworks, and technologies.
+                  new languages, frameworks, and technologies
                 </b>
-                <br />
-                <br />
+                .
               </p>
             </Col>
             <Col md={4} className="myAvtar">
