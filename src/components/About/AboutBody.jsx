@@ -44,7 +44,7 @@ function AboutBody() {
             software development space.
           </p>
           <br /><br />
-          <p>
+          <p className="maincolor">
             Personal Interests:
           </p>
           <br></br>
