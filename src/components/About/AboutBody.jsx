@@ -32,7 +32,7 @@ function AboutBody() {
             <br /><br />
             I have a strong background in Agile/Scrum environments, where I have actively contributed to development teams 
             to bring applications to production successfully. Additionally, I have implemented CI/CD pipelines, optimizing 
-            the development process for efficient and high-quality software delivery. 
+            the development process for efficient and high-quality software delivery.
             <br /><br />
             Early in my career, I worked as a Graphic Designer, a background that provides me with a creative edge as a Full 
             Stack Developer. The transition from Graphic Designer to Web Developer allowed me to merge aesthetic 
