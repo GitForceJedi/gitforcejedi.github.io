@@ -28,8 +28,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git clone --depth=1 --branch=gh-pages https://x-access-token:${{ secrets.PORTFOLIO_ACTIONS_TOKEN }}@github.com/GitForceJedi/gitforcejedi.github.io.git deploy-repo
+          cp deploy-repo/CNAME /tmp/CNAME || echo "No existing CNAME found"  # Save CNAME before deleting everything
           rm -rf deploy-repo/*
           cp -r build/* deploy-repo/
+          [ -f /tmp/CNAME ] && mv /tmp/CNAME deploy-repo/CNAME  # Restore CNAME if it exists
           cd deploy-repo
           git add .
           git commit -m "🚀 Overwrite existing site with new deployment"
