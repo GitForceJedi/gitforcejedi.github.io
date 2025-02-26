@@ -9,7 +9,7 @@ function AboutBody() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
            {/* Hello, my name is <span className="maincolor">Ken Crawford </span>
-            I am a <span className="maincolor"> Full Stack Developer.</span>
+            I am a <span className="maincolor"> Full Stack Developer. </span>
             <br /><br /> */}
             With a robust background as a <span className="maincolor">Full Stack Developer</span>, I offer over five years of diverse experience in 
             software development, web development, application development, and API development. My expertise spans 
