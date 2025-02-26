@@ -22,7 +22,7 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "10px", marginBottom: "10px" }}>
           <Button variant="primary" href={pdfUrl} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
 
