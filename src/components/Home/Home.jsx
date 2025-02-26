@@ -81,7 +81,7 @@ function Home() {
               <span className="maincolor"> QUICK INTRO </span></h1>
               {/* <TypeBody /> */}
               <p className="home-about-body">
-                I am a Full Stack Developer comfortable with <b className="maincolor">Frontend development, Backend development, API development,</b> and the full <b className="maincolor">Software Development Life Cycle</b>.  
+                I am a Full Stack Developer specializing in <b className="maincolor">Frontend development, Backend development, API development,</b> and the full <b className="maincolor">Software Development Life Cycle</b>.  
                 <br />
                 <br />Some of the languages and technologies I use the most include
                   <b className="maincolor"> Javascript, TypeScript, Python, Node.js, React.js, Express, SQL, PostgreSQL, and more. </b>
