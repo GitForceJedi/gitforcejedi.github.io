@@ -6,6 +6,8 @@ import About from './components/About/About';
 import Footer from './components/Footer';
 import Resume from './components/Resume/Resume';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+
 import {
   HashRouter as Router,
   Route,
@@ -39,6 +41,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
