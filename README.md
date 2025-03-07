@@ -1,3 +1,9 @@
+# Ken Crawford Portfolio Website
+
+This is a portfolio website for Ken Crawford. The project is buit in React.js, housed within a GitHub repository, hosted on KenWillCode.com, and deployed via GitHub Actions and GitHub Pages.
+
+You can contact me via email at contact@kenwillcode.com.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
