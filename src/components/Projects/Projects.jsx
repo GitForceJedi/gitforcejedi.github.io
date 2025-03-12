@@ -7,6 +7,7 @@ import businessApp from "../../Assets/Projects/business-app.png";
 import pokemonGenerator from "../../Assets/Projects/pokemon-generator.png";
 import javaRps from "../../Assets/Projects/java-r-p-s.png";
 import stateSearch from "../../Assets/Projects/state-search-large.png";
+import binarySearchTree from "../../Assets/Projects/binarysearchtree.png";
 import TypeProjectTitle from "./TypeProjectTitle";
 
 function Projects() {
@@ -15,11 +16,9 @@ function Projects() {
       <Container>
         <TypeProjectTitle />
         <br />
-        <p style={{ color: "white" }}>
+        <p style={{ color: "white", textAlign: "justify" }}>
         This section contains some of my projects that are currently deployed online. 
         The projects are housed in repositories on GitHub and set up for <span className="maincolor">CI/CD</span> to <span className="maincolor">KenWillCode.com</span> via <span className="maincolor">GitHub Actions</span> and <span className="maincolor">GitHub Pages</span>. 
-        </p>
-        <p style={{ color: "white" }}>
         Other projects are deployed on <span className="maincolor">Render</span> via <span className="maincolor">Github</span> and <span className="maincolor">Docker</span>.
         Please feel free to visit their respective GitHub links to see how everything is configured.
         I have many other projects that are backend/API focused and do not have a front end, these can be located within my <a href="https://github.com/GitForceJedi" style={{color: "orangered"}}>GitHub Account</a>.        
@@ -83,6 +82,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={7} className="project-card">
             <ProjectCard
+              imgPath={binarySearchTree}
+              isBlog={false}
+              title="Java - Binary Search Tree"
+              description={[
+                "The Binary Search Tree Program is a Java-based command-line application that allows users to create, manipulate, and traverse a binary search tree interactively. Users can insert and delete nodes, perform in-order, pre-order, post-order, and reverse-order traversals, and view the tree structure directly from a terminal interface. This program is designed to demonstrate tree-based data structures while offering an intuitive and efficient user experience.",
+                
+                "Built with Java (JDK 11) and managed with Gradle, the project is packaged into a JAR file and containerized using Docker for streamlined deployment. The application integrates ttyd, a WebSocket-based terminal emulator, enabling users to interact with the program through a web browser while maintaining a terminal-like experience.",
+                
+                "For deployment, the application is hosted on Render, where the Dockerized environment ensures continuous availability. The deployment process involves automatically building the JAR file within the Docker container, pushing the latest version to Render, and exposing the application through a web-based terminal. Additionally, auto-deploy is enabled, ensuring that every push to the repository triggers a new build and deployment without manual intervention.",
+                
+                "This project effectively combines Java, Docker, WebSockets, and cloud deployment technologies to bring a traditionally terminal-based application to the web. By leveraging ttyd, users can interact with the Binary Search Tree program in a browser just as they would in a local terminal, ensuring accessibility and ease of use across different devices.",
+                
+                "*Unit test cases are included using JUnit and Gradle for robust testing and validation of binary search tree operations.*"
+            ]}
+              ghLink="https://github.com/GitForceJedi/java-binary-search-tree.git"
+              demoLink="https://java-binary-search-tree.onrender.com/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
               imgPath={stateSearch}
               isBlog={false}
               title="Java - State Search"
@@ -96,8 +117,7 @@ function Projects() {
                 "This project effectively combines Java, Docker, WebSockets, and cloud deployment technologies to bring a traditional command-line tool to the web. By leveraging ttyd, users can access the search functionality as if they were using a local terminal, but entirely from their browser.",
                 
                 "*Unit test cases are included using JUnit and Maven for robust testing and validation of the search functionality.*"
-              ]
-              }
+              ]}
               ghLink="https://github.com/GitForceJedi/java-boyer-moore-state-search.git"
               demoLink="https://java-boyer-moore-state-search.onrender.com/"
             />
