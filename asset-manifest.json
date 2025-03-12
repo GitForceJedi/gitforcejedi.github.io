@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f727099.css",
-    "main.js": "/static/js/main.69aa556a.js",
+    "main.css": "/static/css/main.db4fe13f.css",
+    "main.js": "/static/js/main.c830fbfa.js",
     "static/js/453.36128a8e.chunk.js": "/static/js/453.36128a8e.chunk.js",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.0e4daee0122de6347733.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.d74e8f7fb97a6eb648e1.jpg",
     "static/media/about.png": "/static/media/about.f2baaecff6dfb5644883.png",
+    "static/media/KenComicSuit.png": "/static/media/KenComicSuit.cb0662dfeeea912898b2.png",
     "static/media/pokemon-generator.png": "/static/media/pokemon-generator.d9dbd7c8c1f1e000aa50.png",
+    "static/media/java-r-p-s.png": "/static/media/java-r-p-s.56699b846ee72b0eb31a.png",
     "static/media/business-app.png": "/static/media/business-app.bd0ee4c8c3e5a7135e98.png",
     "static/media/shopping-cart.png": "/static/media/shopping-cart.c10081905896ab32d369.png",
     "static/media/mean_dev_about.png": "/static/media/mean_dev_about.c50d6c1f8347300bf8bd.png",
-    "static/media/KenCircle.jpg": "/static/media/KenCircle.d583986d7990275f6fd1.jpg",
     "index.html": "/index.html",
     "static/media/organge-loader.svg": "/static/media/organge-loader.20158602384e4cade028.svg",
-    "main.4f727099.css.map": "/static/css/main.4f727099.css.map",
-    "main.69aa556a.js.map": "/static/js/main.69aa556a.js.map",
+    "main.db4fe13f.css.map": "/static/css/main.db4fe13f.css.map",
+    "main.c830fbfa.js.map": "/static/js/main.c830fbfa.js.map",
     "453.36128a8e.chunk.js.map": "/static/js/453.36128a8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f727099.css",
-    "static/js/main.69aa556a.js"
+    "static/css/main.db4fe13f.css",
+    "static/js/main.c830fbfa.js"
   ]
 }
