@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/KenCircle.jpg";
+import homeLogo from "../../Assets/KenComicSuit.png";
 import myImg from "../../Assets/mean_dev_about.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";

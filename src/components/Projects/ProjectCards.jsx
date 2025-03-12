@@ -11,7 +11,11 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title style={{color: "orangered"}}><b>{props.title}</b></Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          {Array.isArray(props.description)
+            ? props.description.map((paragraph, index) => (
+               <p key={index}>{paragraph}</p>
+              ))
+            : props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
