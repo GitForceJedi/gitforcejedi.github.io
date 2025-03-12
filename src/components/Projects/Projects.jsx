@@ -17,6 +17,9 @@ function Projects() {
         <p style={{ color: "white" }}>
         This section contains some of my projects that are currently deployed online. 
         The projects are housed in repositories on GitHub and set up for <span className="maincolor">CI/CD</span> to <span className="maincolor">KenWillCode.com</span> via <span className="maincolor">GitHub Actions</span> and <span className="maincolor">GitHub Pages</span>. 
+        </p>
+        <p style={{ color: "white" }}>
+        Other projects are deployed on <span className="maincolor">Render</span> via <span className="maincolor">Github Actions</span> and <span className="maincolor">Docker</span>.
         Please feel free to visit their respective GitHub links to see how everything is configured.
         I have many other projects that are backend/API focused and do not have a front end, these can be located within my <a href="https://github.com/GitForceJedi" style={{color: "orangered"}}>GitHub Account</a>.        
         </p>
