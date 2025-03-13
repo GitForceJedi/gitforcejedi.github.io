@@ -27,6 +27,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={7} className="project-card">
             <ProjectCard
+              imgPath={dealershipReview}
+              isBlog={false}
+              title="Dealership Reviews - Full Stack App"
+              description={[
+                "The Car Reviews application is a full-stack web platform that allows users to browse dealerships, submit car reviews, and engage with automotive data. It features a secure authentication system, ensuring that only logged-in users can post reviews, while unauthenticated users have read-only access. The application is designed to provide a seamless user experience for car enthusiasts and potential buyers.",
+                
+                "Built using Django for both the frontend and backend, the project also incorporates a Node.js API to retrieve dealership data and a Python-based API to manage and process user reviews. PostgreSQL serves as the primary relational database, storing structured dealership and user data, while IBM Cloudant (NoSQL) handles document-based storage, ensuring efficient and scalable data management.",
+                
+                "The deployment process utilizes Docker for containerization, allowing each component of the application—Django, Node.js, and Python APIs—to run as independent services in a microservices architecture. The entire system is deployed on Render, where the PostgreSQL database is hosted as a managed service, ensuring scalability and reliability.",
+                
+                "To maintain security and performance, authentication is enforced via Django’s built-in user management system, preventing unauthorized review submissions. The frontend integrates dynamically with the APIs, providing an interactive interface for users to explore dealerships and submit their experiences.",
+                
+                "*This project demonstrates the power of combining relational and NoSQL databases, microservices, and cloud deployment to deliver a robust, scalable, and user-friendly car review platform.*",
+                "Note: This project previously used AI via IBM Watson for Sentiment Analysis of reviews. The particular service used has been deprecated."            ]}
+              ghLink="https://github.com/GitForceJedi/dealership-reviews.git"
+              demoLink="https://django-app-latest-8iu2.onrender.com/djangoapp/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
               imgPath={ticTacToe}
               isBlog={false}
               title="React Tic-Tac-Toe"
@@ -61,28 +83,6 @@ function Projects() {
               The Checkout section contains a Payment portion complete with input validation. The project is meant to showcase how React and the use of State can be used to manage online shopping and payments."
               ghLink="https://github.com/GitForceJedi/shopping-cart-app.git"
               demoLink="https://www.kenwillcode.com/shopping-cart-app/"
-            />
-          </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={7} className="project-card">
-            <ProjectCard
-              imgPath={dealershipReview}
-              isBlog={false}
-              title="Dealership Reviews - Full Stack App"
-              description={[
-                "The Car Reviews application is a full-stack web platform that allows users to browse dealerships, submit car reviews, and engage with automotive data. It features a secure authentication system, ensuring that only logged-in users can post reviews, while unauthenticated users have read-only access. The application is designed to provide a seamless user experience for car enthusiasts and potential buyers.",
-                
-                "Built using Django for both the frontend and backend, the project also incorporates a Node.js API to retrieve dealership data and a Python-based API to manage and process user reviews. PostgreSQL serves as the primary relational database, storing structured dealership and user data, while IBM Cloudant (NoSQL) handles document-based storage, ensuring efficient and scalable data management.",
-                
-                "The deployment process utilizes Docker for containerization, allowing each component of the application—Django, Node.js, and Python APIs—to run as independent services in a microservices architecture. The entire system is deployed on Render, where the PostgreSQL database is hosted as a managed service, ensuring scalability and reliability.",
-                
-                "To maintain security and performance, authentication is enforced via Django’s built-in user management system, preventing unauthorized review submissions. The frontend integrates dynamically with the APIs, providing an interactive interface for users to explore dealerships and submit their experiences.",
-                
-                "*This project demonstrates the power of combining relational and NoSQL databases, microservices, and cloud deployment to deliver a robust, scalable, and user-friendly car review platform.*",
-                "Note: This project previously used AI via IBM Watson for Sentiment Analysis of reviews. The particular service used has been deprecated."            ]}
-              ghLink="https://github.com/GitForceJedi/dealership-reviews.git"
-              demoLink="https://django-app-latest-8iu2.onrender.com/djangoapp/"
             />
           </Col>
         </Row>
