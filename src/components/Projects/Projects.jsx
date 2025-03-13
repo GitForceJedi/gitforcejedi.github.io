@@ -119,7 +119,7 @@ function Projects() {
                 "*Unit test cases are included using JUnit and Maven for robust testing and validation of the search functionality.*"
               ]}
               ghLink="https://github.com/GitForceJedi/java-boyer-moore-state-search.git"
-              demoLink="https://java-boyer-moore-state-search.onrender.com/"
+              demoLink="https://boyer-moore-search.kenwillcode.com/"
             />
           </Col>
         </Row>
