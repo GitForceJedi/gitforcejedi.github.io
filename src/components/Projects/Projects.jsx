@@ -133,7 +133,7 @@ function Projects() {
               The extension communicates with the Pokemon API to load and showcases the Pokemon's name, id, image, and shiny image. It is meant to showcase how one can interact with an API, receive a response with data, and display that date via front end.
               This extension is available for installation on Chrome. There is also a web demo available below."
               ghLink="https://github.com/GitForceJedi/pokemon-extension.git"
-              demoLink="https://wwww.kenwillcode.com/pokemon-extension/index.html"
+              demoLink="https://www.kenwillcode.com/pokemon-extension/index.html"
             />
           </Col>
         </Row>
