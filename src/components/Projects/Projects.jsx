@@ -8,6 +8,7 @@ import pokemonGenerator from "../../Assets/Projects/pokemon-generator.png";
 import javaRps from "../../Assets/Projects/java-r-p-s.png";
 import stateSearch from "../../Assets/Projects/state-search-large.png";
 import binarySearchTree from "../../Assets/Projects/binarysearchtree.png";
+import dealershipReview from "../../Assets/Projects/dealership-review.png";
 import TypeProjectTitle from "./TypeProjectTitle";
 
 function Projects() {
@@ -66,6 +67,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={7} className="project-card">
             <ProjectCard
+              imgPath={dealershipReview}
+              isBlog={false}
+              title="Dealership Reviews - Full Stack App"
+              description={[
+                "The Car Reviews application is a full-stack web platform that allows users to browse dealerships, submit car reviews, and engage with automotive data. It features a secure authentication system, ensuring that only logged-in users can post reviews, while unauthenticated users have read-only access. The application is designed to provide a seamless user experience for car enthusiasts and potential buyers.",
+                
+                "Built using Django for both the frontend and backend, the project also incorporates a Node.js API to retrieve dealership data and a Python-based API to manage and process user reviews. PostgreSQL serves as the primary relational database, storing structured dealership and user data, while IBM Cloudant (NoSQL) handles document-based storage, ensuring efficient and scalable data management.",
+                
+                "The deployment process utilizes Docker for containerization, allowing each component of the application—Django, Node.js, and Python APIs—to run as independent services in a microservices architecture. The entire system is deployed on Render, where the PostgreSQL database is hosted as a managed service, ensuring scalability and reliability.",
+                
+                "To maintain security and performance, authentication is enforced via Django’s built-in user management system, preventing unauthorized review submissions. The frontend integrates dynamically with the APIs, providing an interactive interface for users to explore dealerships and submit their experiences.",
+                
+                "*This project demonstrates the power of combining relational and NoSQL databases, microservices, and cloud deployment to deliver a robust, scalable, and user-friendly car review platform.*",
+                "Note: This project previously used AI via IBM Watson for Sentiment Analysis of reviews. The particular service used has been deprecated."            ]}
+              ghLink="https://github.com/GitForceJedi/dealership-reviews.git"
+              demoLink="https://django-app-latest-8iu2.onrender.com/djangoapp/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
               imgPath={javaRps}
               isBlog={false}
               title="Java - Rock, Paper, Scissors"
@@ -88,7 +111,7 @@ function Projects() {
               description={[
                 "The Binary Search Tree Program is a Java-based command-line application that allows users to create, manipulate, and traverse a binary search tree interactively. Users can insert and delete nodes, perform in-order, pre-order, post-order, and reverse-order traversals, and view the tree structure directly from a terminal interface. This program is designed to demonstrate tree-based data structures while offering an intuitive and efficient user experience.",
                 
-                "Built with Java (JDK 11) and managed with Gradle, the project is packaged into a JAR file and containerized using Docker for streamlined deployment. The application integrates ttyd, a WebSocket-based terminal emulator, enabling users to interact with the program through a web browser while maintaining a terminal-like experience.",
+                "Built with Java and managed with Gradle, the project is packaged into a JAR file and containerized using Docker for streamlined deployment. The application integrates ttyd, a WebSocket-based terminal emulator, enabling users to interact with the program through a web browser while maintaining a terminal-like experience.",
                 
                 "For deployment, the application is hosted on Render, where the Dockerized environment ensures continuous availability. The deployment process involves automatically building the JAR file within the Docker container, pushing the latest version to Render, and exposing the application through a web-based terminal. Additionally, auto-deploy is enabled, ensuring that every push to the repository triggers a new build and deployment without manual intervention.",
                 
@@ -110,7 +133,7 @@ function Projects() {
               description={[
                 "The State Search Program is a Java-based command-line application that allows users to search for U.S. state names using the Boyer-Moore string search algorithm. The program provides an interactive terminal interface where users can input a search pattern, and the system efficiently locates matching states. It is designed to demonstrate the efficiency of search algorithms while offering a simple, intuitive user experience.",
                 
-                "Built with Java (JDK 11) and managed with Maven, the project is packaged into a JAR file and containerized using Docker for seamless deployment. The application integrates ttyd, a WebSocket-based terminal emulator, allowing users to interact with the program directly from a web browser while maintaining a terminal-like experience.",
+                "Built with Java and managed with Maven, the project is packaged into a JAR file and containerized using Docker for seamless deployment. The application integrates ttyd, a WebSocket-based terminal emulator, allowing users to interact with the program directly from a web browser while maintaining a terminal-like experience.",
                 
                 "For deployment, the application is hosted on Render, where the Dockerized environment ensures continuous availability. The deployment process involves automatically building the JAR file within the Docker container, pushing the latest version to Render, and exposing the application through a web-based terminal. Additionally, GitHub Actions is configured to automate the deployment pipeline, ensuring that every push to the repository triggers a new build and deployment.",
                 
