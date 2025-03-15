@@ -946,3 +946,23 @@ html {
   -webkit-text-fill-color: white !important;
 }
 
+.music-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.music-button {
+  padding: 10px 15px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.music-button:hover {
+  background-color: rgba(255, 69, 0, 0.8);
+}

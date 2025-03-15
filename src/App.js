@@ -47,6 +47,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
+        {/*<MusicPlayer src="/audio/background-music.mp3" />*/}
       </div>
     </Router>
   );

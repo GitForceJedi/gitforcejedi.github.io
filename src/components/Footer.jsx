@@ -16,7 +16,7 @@ function Footer() {
         {/* Centered Copyright */}
         <Col md="4" className="footer-copywright text-center" >
           <h3>© {year}</h3>
-        </Col> 
+        </Col>
 
         {/* Social Media Icons - Aligned Right */}
         <Col md="4" className="footer-body text-end">
