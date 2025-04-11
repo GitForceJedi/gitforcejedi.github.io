@@ -84,8 +84,8 @@ function Projects() {
               description=" This project is meant to showcase the power of custom React Hooks, in the scope of Business Profit and Margin. It is built in React and uses 3 custom hooks that work in conjunction with one another. The hooks are triggered when their corresponding input is adjusted. 
               Additional elements within the page adjust accordingly to the results returned by the hooks.
               Try adjusting both the Purchase Price (which influences the discount applied) and the Business Cost (which influences the profit margin)."
-              ghLink="https://github.com/GitForceJedi/react-tic-tac-toe.git"
-              demoLink="https://www.kenwillcode.com/react-tic-tac-toe/"
+              ghLink="https://github.com/GitForceJedi/business-hooks-react.git"
+              demoLink="https://www.kenwillcode.com/business-hooks-react/"
             />
           </Col>
         </Row>
@@ -98,8 +98,8 @@ function Projects() {
               description="This is a Business Budget App built with React. It allows for the allocation of budget into different areas of business.
               The app contains graphical displays (Bar, Pie) of the data and uses state to dynamically update all sections. There are options to set the total budget amount, increment/decrement budget by a set amount,
                manually input a custom amount and add/subtract it from budget, and more. The app will only allow allocation up to the set budget amount."
-              ghLink="https://github.com/GitForceJedi/business-hooks-react"
-              demoLink="https://www.kenwillcode.com/business-hooks-react/"
+              ghLink="https://github.com/GitForceJedi/business-budget-app.git"
+              demoLink="https://www.kenwillcode.com/business-budget-app/"
             />
           </Col>
         </Row>
