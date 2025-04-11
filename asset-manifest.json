@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f27caeb8.css",
-    "main.js": "/static/js/main.2cdf84ab.js",
+    "main.js": "/static/js/main.315147e2.js",
     "static/js/453.36128a8e.chunk.js": "/static/js/453.36128a8e.chunk.js",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.0e4daee0122de6347733.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.d74e8f7fb97a6eb648e1.jpg",
@@ -10,6 +10,7 @@
     "static/media/binarysearchtree.png": "/static/media/binarysearchtree.900f2a6423466564ef13.png",
     "static/media/state-search-large.png": "/static/media/state-search-large.276b0c397642c9464fa6.png",
     "static/media/pokemon-generator.png": "/static/media/pokemon-generator.d9dbd7c8c1f1e000aa50.png",
+    "static/media/business-hooks.png": "/static/media/business-hooks.33bed924cc0dda634d21.png",
     "static/media/java-r-p-s.png": "/static/media/java-r-p-s.56699b846ee72b0eb31a.png",
     "static/media/business-app.png": "/static/media/business-app.bd0ee4c8c3e5a7135e98.png",
     "static/media/dealership-review.png": "/static/media/dealership-review.f6a041e121511d5f9411.png",
@@ -18,11 +19,11 @@
     "index.html": "/index.html",
     "static/media/organge-loader.svg": "/static/media/organge-loader.20158602384e4cade028.svg",
     "main.f27caeb8.css.map": "/static/css/main.f27caeb8.css.map",
-    "main.2cdf84ab.js.map": "/static/js/main.2cdf84ab.js.map",
+    "main.315147e2.js.map": "/static/js/main.315147e2.js.map",
     "453.36128a8e.chunk.js.map": "/static/js/453.36128a8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f27caeb8.css",
-    "static/js/main.2cdf84ab.js"
+    "static/js/main.315147e2.js"
   ]
 }
