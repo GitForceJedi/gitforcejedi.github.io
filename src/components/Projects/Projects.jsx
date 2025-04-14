@@ -10,6 +10,7 @@ import javaRps from '../../Assets/Projects/java-r-p-s.png';
 import stateSearch from '../../Assets/Projects/state-search-large.png';
 import binarySearchTree from '../../Assets/Projects/binarysearchtree.png';
 import dealershipReview from '../../Assets/Projects/dealership-review.png';
+import movieDb from '../../Assets/Projects/moviedb.png';
 import TypeProjectTitle from './TypeProjectTitle';
 
 function Projects() {
@@ -42,9 +43,34 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={7} className="project-card">
             <ProjectCard
+              imgPath={movieDb}
+              isBlog={false}
+              title="My Movie DB - Full Stack App (React, Vite, Node.js, TypeScript, Express, PostgreSQL)"
+              description={[
+                'The Movie DB application is a full-stack web platform that enables users to explore a dynamic catalog of movies and reviews. Visitors can filter and browse content based on genre, rating, reviewer type, and more — while developers can transparently observe the SQL queries powering the app. This interface bridges the gap between frontend interaction and backend database execution, offering real-time visibility into how web apps communicate with relational data via SQL.',
+
+                'Dynamic filters from the frontend are passed to the backend as query parameters, where they are parsed into secure, parameterized SQL queries. These queries, along with their values, are returned in the API response and displayed on the website, for insight into how user actions affect database behavior.',
+
+                'Built using React 18 with TypeScript for the frontend and Node.js + Express with TypeScript for the backend, the application uses PostgreSQL as the primary relational database. Supabase serves as the cloud-hosted database platform, while Tailwind CSS provides a utility-first styling system for a clean, modern interface. The codebase is modular, featuring custom React hooks and service layers to manage API logic and state cleanly.',
+
+                'Deployment is split across platforms: the frontend is hosted on GitHub Pages and linked to a custom domain (kenwillcode.com/movie-db-frontend), while the backend API is deployed on Render. Environment variables such as the API base URL and CORS origins are managed per deployment target to ensure proper frontend-backend communication in both local and production environments.',
+
+                'Security and scalability are addressed using JSON Web Tokens (JWT) for authenticated review submissions, and the system architecture supports future extensibility.',
+
+                '*This project demonstrates how modern frontend tools, cloud-hosted relational databases, and secure backend APIs can be combined to deliver a transparent, educational, and scalable movie exploration and review platform.*',
+                'The GitHub link below leads to the Frontend portion, for the Backend visit https://github.com/GitForceJedi/movie-db-backend.git',
+              ]}
+              ghLink="https://github.com/GitForceJedi/movie-db-frontend.git"
+              demoLink="https://kenwillcode.com/movie-db-frontend/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
               imgPath={dealershipReview}
               isBlog={false}
-              title="Dealership Reviews - Full Stack App"
+              title="Dealership Reviews - Full Stack App with AI Sentiment Analysis"
               description={[
                 'The Car Reviews application is a full-stack web platform that allows users to browse dealerships, submit car reviews, and engage with automotive data. It features a secure authentication system, ensuring that only logged-in users can post reviews, while unauthenticated users have read-only access. The application is designed to provide a seamless user experience for car enthusiasts and potential buyers.',
 
@@ -55,7 +81,7 @@ function Projects() {
                 'To maintain security and performance, authentication is enforced via Django’s built-in user management system, preventing unauthorized review submissions. The frontend integrates dynamically with the APIs, providing an interactive interface for users to explore dealerships and submit their experiences.',
 
                 '*This project demonstrates the power of combining relational and NoSQL databases, microservices, and cloud deployment to deliver a robust, scalable, and user-friendly car review platform.*',
-                'Note: This project previously used AI via IBM Watson for Sentiment Analysis of reviews. The particular service used has been deprecated.',
+                'Note: This project uses AI via IBM Watson for Sentiment Analysis of reviews. The reviews are analyzed for sentiment and an image is attached to the review based on the sentiment calculated.',
               ]}
               ghLink="https://github.com/GitForceJedi/dealership-reviews.git"
               demoLink="https://django-app-latest-8iu2.onrender.com/djangoapp/"
