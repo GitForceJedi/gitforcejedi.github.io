@@ -11,6 +11,7 @@ import stateSearch from '../../Assets/Projects/state-search-large.png';
 import binarySearchTree from '../../Assets/Projects/binarysearchtree.png';
 import dealershipReview from '../../Assets/Projects/dealership-review.png';
 import movieDb from '../../Assets/Projects/moviedb.png';
+import tanitiTravel from '../../Assets/Projects/taniti-home.png';
 import TypeProjectTitle from './TypeProjectTitle';
 
 function Projects() {
@@ -43,6 +44,24 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={7} className="project-card">
             <ProjectCard
+              imgPath={tanitiTravel}
+              isBlog={false}
+              title="Taniti Travel - (React, Vite, Node.js., HMTL, CSS)"
+              description={[
+                'The Taniti Travel website is a fully responsive informational platform designed to promote tourism to the fictional island of Taniti. The site highlights the island’s lodging, dining, entertainment, transportation, and cultural offerings through a clean, image-rich interface. Users can navigate seamlessly between pages showcasing curated content, activity cards, and call-to-action buttons that encourage deeper exploration and engagement.',
+
+                'Each page was carefully designed with UX best practices, using reusable layout components such as Hero banners, CardGrids, TextBlocks, and custom layouts to deliver a consistent and accessible experience. Pages feature fully detailed content including images, descriptive text, and contextual CTAs such as “Explore Beaches” and “Find Pubs.” The Contact form is accessible globally through both navigation and popup windows for user inquiries.',
+
+                'Built with React 18 and Vite for lightning-fast development and optimized builds, the project uses modular SCSS for styling alongside Bootstrap utility classes to ensure mobile-friendly layouts. Navigation is handled by React Router DOM.',
+              ]}
+              ghLink="https://github.com/GitForceJedi/taniti-travel.git"
+              demoLink="https://kenwillcode.com/taniti-travel/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
               imgPath={movieDb}
               isBlog={false}
               title="My Movie DB - Full Stack App (React, Vite, Node.js, TypeScript, Express, PostgreSQL)"
@@ -55,13 +74,24 @@ function Projects() {
 
                 'Deployment is split across platforms: the frontend is hosted on GitHub Pages and linked to a custom domain (kenwillcode.com/movie-db-frontend), while the backend API is deployed on Render. Environment variables such as the API base URL and CORS origins are managed per deployment target to ensure proper frontend-backend communication in both local and production environments.',
 
-                'Security and scalability are addressed using JSON Web Tokens (JWT) for authenticated review submissions, and the system architecture supports future extensibility.',
-
                 '*This project demonstrates how modern frontend tools, cloud-hosted relational databases, and secure backend APIs can be combined to deliver a transparent, educational, and scalable movie exploration and review platform.*',
                 'The GitHub link below leads to the Frontend portion, for the Backend visit https://github.com/GitForceJedi/movie-db-backend.git',
               ]}
               ghLink="https://github.com/GitForceJedi/movie-db-frontend.git"
               demoLink="https://kenwillcode.com/movie-db-frontend/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
+              imgPath={ticTacToe}
+              isBlog={false}
+              title="React Tic-Tac-Toe"
+              description="This is a React.js project that allows two players to interact with each other in a game of Tic-Tac-Toe. When the player is prompted (X/O) they will be able to choose their move on the board. The game will continue in this fashion until a Winner is determineed or the game ends in a tie. Once finished the game can be reset for the next round.
+              The project is meant to showcase the capabilities of React and the use of State to manage the game board."
+              ghLink="https://github.com/GitForceJedi/react-tic-tac-toe.git"
+              demoLink="https://www.kenwillcode.com/react-tic-tac-toe/"
             />
           </Col>
         </Row>
@@ -85,19 +115,6 @@ function Projects() {
               ]}
               ghLink="https://github.com/GitForceJedi/dealership-reviews.git"
               demoLink="https://django-app-latest-8iu2.onrender.com/djangoapp/"
-            />
-          </Col>
-        </Row>
-        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-          <Col md={7} className="project-card">
-            <ProjectCard
-              imgPath={ticTacToe}
-              isBlog={false}
-              title="React Tic-Tac-Toe"
-              description="This is a React.js project that allows two players to interact with each other in a game of Tic-Tac-Toe. When the player is prompted (X/O) they will be able to choose their move on the board. The game will continue in this fashion until a Winner is determineed or the game ends in a tie. Once finished the game can be reset for the next round.
-              The project is meant to showcase the capabilities of React and the use of State to manage the game board."
-              ghLink="https://github.com/GitForceJedi/react-tic-tac-toe.git"
-              demoLink="https://www.kenwillcode.com/react-tic-tac-toe/"
             />
           </Col>
         </Row>
