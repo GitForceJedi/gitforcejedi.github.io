@@ -12,6 +12,7 @@ import binarySearchTree from '../../Assets/Projects/binarysearchtree.png';
 import dealershipReview from '../../Assets/Projects/dealership-review.png';
 import movieDb from '../../Assets/Projects/moviedb.png';
 import tanitiTravel from '../../Assets/Projects/taniti-home.png';
+import sunrayVacations from '../../Assets/Projects/sunray-vacations.png';
 import TypeProjectTitle from './TypeProjectTitle';
 
 function Projects() {
@@ -41,6 +42,28 @@ function Projects() {
           </a>
           .
         </p>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
+              imgPath={sunrayVacations}
+              isBlog={false}
+              title="Sunray Vacations - (Android, Java, SQL, JUnit, Espresso)"
+              description={[
+                'The Sunray Vacations application is a mobile platform designed to streamline vacation planning and excursion management for travelers. It enables users to register securely, log in with hashed credentials, create itineraries, attach excursions, and set notifications for trip start and end dates.',
+
+                'Deployment is provided through two portals. A dedicated project page on Itch.io serves as the discovery portal for APK downloads, versioned releases, and project presentation. Appetize.io offers a live browser-based emulator that allows users to interact with the app directly, change device or API level on the fly, and access a project-specific page for testing and demonstration.',
+
+                'The app is built in Java 17 using Android Studio Meerkat with AGP 8.1+, and leverages the Room Persistence Library (v2.4.3) for local data storage. The interface is implemented with XML layouts using components like RecyclerView, ConstraintLayout, and SearchView for responsive, user-friendly navigation.',
+
+                'Testing includes unit tests with JUnit 4, DAO verification with Robolectric and room-testing, and UI automation with Espresso and UIAutomator. Automated HTML reports provide visibility into pass/fail results, while version control and CI/CD practices ensure traceability and maintainable development.',
+
+                'Core features are built on a relational data model where Users, Vacations, and Excursions are represented as Room entities with foreign key associations to enforce one-to-many relationships. Authentication and authorization are implemented with salted and hashed password storage, ensuring secure user isolation at the database level. Each Vacation entity is tied to a specific User, with linked Excursions maintaining referential integrity through foreign keys. Scheduled notifications are implemented via Android’s AlarmManager and WorkManager APIs, enabling device-level alerts for vacation start and end dates. Vacation search / filtering functionality. Data can be exported through repository-layer logic into TXT and CSV report formats, written to device storage using scoped storage APIs, and shared through Android’s native file-sharing intents for external consumption.',
+              ]}
+              ghLink="https://github.com/GitForceJedi/sunray-vacations.git"
+              demoLink="https://appetize.io/app/b_b2vs6r7p6irgu3jesbytqo4hnu?device=pixel7&osVersion=14.0&toolbar=true"
+            />
+          </Col>
+        </Row>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={7} className="project-card">
             <ProjectCard
