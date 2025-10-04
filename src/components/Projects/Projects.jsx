@@ -13,6 +13,7 @@ import dealershipReview from '../../Assets/Projects/dealership-review.png';
 import movieDb from '../../Assets/Projects/moviedb.png';
 import tanitiTravel from '../../Assets/Projects/taniti-home.png';
 import sunrayVacations from '../../Assets/Projects/sunray-vacations.png';
+import worldMap from '../../Assets/Projects/world-map.png';
 import TypeProjectTitle from './TypeProjectTitle';
 
 function Projects() {
@@ -79,6 +80,24 @@ function Projects() {
               ]}
               ghLink="https://github.com/GitForceJedi/taniti-travel.git"
               demoLink="https://kenwillcode.com/taniti-travel/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={7} className="project-card">
+            <ProjectCard
+              imgPath={worldMap}
+              isBlog={false}
+              title="World Map (Angular, TypeScript / JavaScript, Node, HMTL, CSS)"
+              description={[
+                'The World Map project is an interactive web application that visualizes global geography through a clickable SVG map, allowing users to explore country-specific details dynamically. Each country on the map acts as an interactive region, displaying contextual information such as population, capital, and regional facts when selected, creating an engaging learning and exploration experience.',
+
+                'The interface emphasizes clean, intuitive design and accessibility, using Angular components and responsive layouts to ensure a seamless experience across devices. Hover and click events provide visual feedback and highlight selected regions, enhancing user engagement through smooth transitions and contextual data panels.',
+
+                'Developed with Angular 17, TypeScript, and SVG-based vector graphics, the project leverages modular architecture for scalability and maintainability. The build is optimized for static deployment, ensuring fast load times and reliable performance on platforms like Render.',
+              ]}
+              ghLink="https://github.com/GitForceJedi/world-map.git"
+              demoLink="https://world-map-mnf4.kenwillcode.com"
             />
           </Col>
         </Row>
@@ -240,7 +259,7 @@ function Projects() {
                 '*Unit test cases are included using JUnit and Maven for robust testing and validation of the search functionality.*',
               ]}
               ghLink="https://github.com/GitForceJedi/java-boyer-moore-state-search.git"
-              demoLink="https://boyer-moore-search.kenwillcode.com/"
+              demoLink="https://java-boyer-moore-state-search.onrender.com/"
             />
           </Col>
         </Row>
