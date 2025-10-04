@@ -97,7 +97,7 @@ function Projects() {
                 'Developed with Angular 17, TypeScript, and SVG-based vector graphics, the project leverages modular architecture for scalability and maintainability. The build is optimized for static deployment, ensuring fast load times and reliable performance on platforms like Render.',
               ]}
               ghLink="https://github.com/GitForceJedi/world-map.git"
-              demoLink="https://world-map-mnf4.kenwillcode.com"
+              demoLink="https://world-map-mnf4.onrender.com/map"
             />
           </Col>
         </Row>
