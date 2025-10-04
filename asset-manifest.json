@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f27caeb8.css",
-    "main.js": "/static/js/main.d22d44d2.js",
+    "main.js": "/static/js/main.e4d61d5f.js",
     "static/js/453.36128a8e.chunk.js": "/static/js/453.36128a8e.chunk.js",
     "static/media/sunray-vacations.png": "/static/media/sunray-vacations.a928c0a7524e288bbd26.png",
     "static/media/taniti-home.png": "/static/media/taniti-home.10e38bad0aa681f431d5.png",
@@ -23,11 +23,11 @@
     "index.html": "/index.html",
     "static/media/organge-loader.svg": "/static/media/organge-loader.20158602384e4cade028.svg",
     "main.f27caeb8.css.map": "/static/css/main.f27caeb8.css.map",
-    "main.d22d44d2.js.map": "/static/js/main.d22d44d2.js.map",
+    "main.e4d61d5f.js.map": "/static/js/main.e4d61d5f.js.map",
     "453.36128a8e.chunk.js.map": "/static/js/453.36128a8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f27caeb8.css",
-    "static/js/main.d22d44d2.js"
+    "static/js/main.e4d61d5f.js"
   ]
 }
