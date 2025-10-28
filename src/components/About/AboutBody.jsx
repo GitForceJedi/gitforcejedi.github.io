@@ -22,9 +22,17 @@ function AboutBody() {
             </span>
             and databases such as{' '}
             <span className="maincolor">MySQL, MS SQL Server,</span> and{' '}
-            <span className="maincolor">PostgreSQL. </span>
-            Additionally, I have extensive experience deploying applications and
-            microservices on leading cloud platforms such as
+            <span className="maincolor">PostgreSQL. </span>I am also well-versed
+            in enterprise solutions built on{' '}
+            <span className="maincolor">Microsoft Power Plaftom</span>,
+            including{' '}
+            <span className="maincolor">
+              Power Apps, Power Automate, Dataverse, CoPilot Studio{' '}
+            </span>
+            as well as <span className="maincolor">Azure </span>
+            for cloud integration and automation. Additionally, I have extensive
+            experience deploying applications and microservices on leading cloud
+            platforms such as
             <span className="maincolor">
               {' '}
               IBM Cloud, AWS, and Microsoft Azure.
